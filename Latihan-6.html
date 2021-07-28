@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Penjualan Motor</title>
+    </head>
+    <body>
+        <p><b><center>PROGRAM PENJUALAN MOTOR</center></b></p>
+        <form method="POST" action=" " name="PPM">
+            <table width="30%">
+                <hr>
+                <br>
+
+                <td>Merk Motor</td>
+                    <td><select size="l" name="merkmotor">
+                        <option>HONDA</option>
+                        <option>YAMAHA</option>
+                        <option>SUZUKI</option>
+                        <option>KAWASAKI</option>
+                    </select></td>
+                </tr>
+
+                <tr>
+                    <td>Aksesoris</td>
+                    <td><input type="checkbox" name="aksesoris" value="velg racing">Velg Racing<br>
+                        <input type="checkbox" name="aksesoris" value="helm">Helm<br>
+                        <input type="checkbox" name="aksesoris" value="jaket">Jaket</td>
+                </tr>
+
+                <tr>
+                    <td>Cara Pembayaran</td>
+                    <td><input type="checkbox" name="cara pembayaraan" value="tunai">Tunai<br>
+                        <input type="checkbox" name="cara pembayaraan" value="kredit">Kredit</td>
+                </tr>
+
+                <tr>
+                    <td>Harga</td>
+                    <td><input type="text" price="harga" size="25"></td>
+                </tr>
+
+                <tr>
+                    <td>Bunga/Diskon</td>
+                    <td><input type="text" name="bunga/diskon" size="25"></td>
+                </tr>
+
+                <tr>
+                    <td>Total</td>
+                    <td><input type="text" name="total" size="25"></td>
+                </tr>
+            </table>
+            <hr>
+            <br>
+            <button onclick="myFunction()">Proses</button>
+            <button onclick="myHappy()">Reset</button>
+        </form>
+    </body>
+</html>

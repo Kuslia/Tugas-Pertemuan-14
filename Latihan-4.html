@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Form Pembelian Barang</title>
+    </head>
+    <body>
+        <p><b><center>FORM PEMBELIAN BARANG</center></b></p>
+        <form method="POST" action=" " name="FPB">
+            <table width="35%">
+                <tr>
+                    <hr>
+                    <br>
+                    <td>Nama Barang</td>
+                    <td><select size="l" name="namabarang">
+                        <option>Monitor</option>
+                        <option>CPU</option>
+                        <option>VGA</option>
+                        <option>Mouse</option>
+                    </select>
+                </td>
+                </tr>
+
+                <tr>
+                    <td>Jumlah</td>
+                    <td><input type="text" name="jumlah" size="30"></td>
+                </tr>
+
+                <tr>
+                    <td>Status</td>
+                    <td><select size="l" name="status">
+                        <option>Pelanggan</option>
+                        <option>Bukan Pelanggan</option>
+                        </select>
+                </td>
+
+                <tr>
+                    <td>Harga</td>
+                    <td><input type="text" name="harga" size="30"></td>
+                </tr>
+
+                <tr>
+                    <td>Total</td>
+                    <td><input type="text" name="total" size="30"></td>
+                </tr>
+
+                <tr>
+                    <td>Diskon 10%</td>
+                    <td><input type="text" name="diskon10%" size="30"></td>
+                </tr>
+
+                <tr>
+                    <td>Bayar</td>
+                    <td><input type="text" name="bayar" size="30"></td>
+                </tr>
+
+            </table>
+                <hr>
+                <br>
+                <button onclick="myFunction()">Proses</button>
+                <button onclick="myHappy()">Reset</button>
+            </form>
+    </body>
+</html>
